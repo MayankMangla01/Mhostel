@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1096311500335",
+    "firebase_url": "https://hostel-m-5fc38.firebaseio.com",
+    "project_id": "hostel-m-5fc38",
+    "storage_bucket": "hostel-m-5fc38.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1096311500335:android:65899625143a5776",
+        "android_client_info": {
+          "package_name": "com.example.vampcat.hostelm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1096311500335-3lgd98nsr35mdoe743rr1q2kaeam9phk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuYhjFUCoK2EldRhdWfmm3Bfb9NP0uEJI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
