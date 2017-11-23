@@ -17,7 +17,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".SuccessfulLogin"></activity>
-        <activity android:name=".ForgotPassword"></activity>
         <activity android:name=".Registration"></activity>
         <activity android:name="Complaints"></activity>
         <activity android:name="Notifications"></activity>
