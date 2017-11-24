@@ -5,13 +5,13 @@
     android:layout_height="match_parent"
     android:background="@drawable/messmenu1">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:adjustViewBounds="true"
-        android:rotation="90"
-        android:visibility="visible"
-        app:srcCompat="@drawable/messmenu1" />
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:rotation="90"
+            android:visibility="visible"
+            app:srcCompat="@drawable/messmenu1" />
 </LinearLayout>
