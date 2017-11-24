@@ -5,27 +5,35 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.vampcat.hostelm.LoginPage"
-    android:background="#0098ff">
+    android:background="@color/colorbg">
 
     <EditText
         android:id="@+id/ETusername"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="168dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/edittext_bg"
         android:ems="10"
         android:hint="Thapar Email ID"
         android:inputType="textEmailAddress|textWebEmailAddress"
-        app:layout_constraintHorizontal_bias="0.503"
+        android:padding="16dp"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/circle_profile" />
 
     <EditText
         android:id="@+id/ETpassword"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
         android:layout_marginTop="30dp"
         android:ems="10"
+        android:background="@drawable/edittext_bg"
+        android:padding="16dp"
         android:hint="Password"
         android:inputType="textPassword|textWebPassword"
         app:layout_constraintHorizontal_bias="0.503"
@@ -37,7 +45,8 @@
         android:id="@+id/Blogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="76dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/button_bg"
         android:onClick="onLogin"
         android:text="Login"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -61,8 +70,7 @@
         android:id="@+id/TVregister"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="50dp"
-        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="48dp"
         android:onClick="onLogin"
         android:text="Register Here!"
         android:textSize="16sp"
@@ -70,5 +78,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.857"
         app:layout_constraintStart_toEndOf="@+id/TVforgotpassword" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circle_profile"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/mhos1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
